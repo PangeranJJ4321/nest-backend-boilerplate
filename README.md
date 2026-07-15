@@ -135,6 +135,17 @@ async findOne(id: number) {
 
 ---
 
+## 🛡️ Standar Kode Enterprise (Wajib Dibaca!)
+
+Proyek ini telah dibekali dengan penjaga otomatis agar kualitas kode Anda setara dengan *engineer* profesional:
+
+1. **Auto-Formatting (Husky + Prettier + Lint-Staged)**
+   Setiap kali Anda mengetik `git commit`, robot bernama **Husky** akan mencegatnya dan menjalankan linter serta **Prettier**. Ia akan otomatis memperbaiki spasi, *indentation*, *single-quote*, dan titik koma (*semicolon*) di seluruh file `.ts` Anda. Jika ada *error* Typescript parah, *commit* akan digagalkan! Tulis kode serapi mungkin.
+2. **Scalar API Reference**
+   Kami menggunakan ekosistem `@scalar/nestjs-api-reference`. Semua endpoint yang Anda buat akan otomatis terdokumentasi dengan UI yang interaktif dan mewah bak Postman di dalam browser.
+
+---
+
 ## 🚀 Cara Menjalankan Project (Getting Started)
 
 1. **Instal Dependencies**: `npm install`
